@@ -8,7 +8,7 @@ public class SpawnLevels : MonoBehaviour
     
     void Start()
     {
-        InvokeRepeating("CreateLevels", 10f, 12f);
+        InvokeRepeating("CreateLevels", 10f, 13f);
     }
 
     public void CreateLevels()
